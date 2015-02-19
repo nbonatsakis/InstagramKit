@@ -50,6 +50,7 @@
 #define kLink @"link"
 #define kCaption @"caption"
 #define kLikes @"likes"
+#define kUserHasLiked @"user_has_liked"
 #define kComments @"comments"
 #define kFilter @"filter"
 #define kTags @"tags"

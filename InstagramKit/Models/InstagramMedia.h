@@ -34,6 +34,7 @@
 @property (nonatomic, readonly) InstagramComment* caption;
 @property (nonatomic, readonly) NSInteger likesCount;
 @property (nonatomic, readonly) NSArray *likes;
+@property (nonatomic, assign, readonly) BOOL userHasLiked;
 @property (nonatomic, readonly) NSInteger commentCount;
 @property (nonatomic, readonly) NSArray *comments;
 @property (nonatomic, readonly) NSArray *tags;
