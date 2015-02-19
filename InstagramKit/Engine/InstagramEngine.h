@@ -82,6 +82,7 @@ typedef NS_OPTIONS(NSInteger, IKLoginScope) {
 
 + (InstagramEngine *)sharedEngine;
 + (NSDictionary*)sharedEngineConfiguration;
++ (void)setSharedEngineConfiguration:(NSDictionary *)configDict;
 
 @property (nonatomic, copy) NSString *appClientID;
 @property (nonatomic, copy) NSString *appRedirectURL;
